@@ -13,5 +13,5 @@ def data3(requset):
     return HttpResponse (a+b)
 def data4(requset):
     p="prasanta sethi"
-    return HttpResponse(f'<h2>hello how are you  { p}</h2>')
+    return HttpResponse(f'<h2>hello how are you { p}</h2>')
     
